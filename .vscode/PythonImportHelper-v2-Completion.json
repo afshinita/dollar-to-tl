@@ -1,0 +1,132 @@
+[
+    {
+        "label": "ssl,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ssl.",
+        "description": "ssl.",
+        "detail": "ssl.",
+        "documentation": {
+            "value": "\n```python\nimport ssl.\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {
+            "value": "\n```python\nimport datetime\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {
+            "value": "\n```python\nimport requests\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {
+            "value": "\n```python\nimport bs4\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {
+            "value": "\n```python\nimport pandas\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {
+            "value": "\n```python\nimport numpy\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "My_Data",
+        "kind": 6,
+        "importPath": "my_dollar_convert",
+        "description": "my_dollar_convert",
+        "peekOfCode": "class My_Data:\n    def my_show_data(self,dt):\n        count = 0; x = None\n        for i in dt:\n            if x == None:\n                x = i.strip()\n            elif (count % 2 == 0):\n                str2.append(i.strip())\n            else: str1.append(i.strip())\n            count += 1",
+        "detail": "my_dollar_convert",
+        "documentation": {
+            "value": "\n```python\nfrom my_dollar_convert import My_Data\n```\n\n```python\n\n\n```\n\n```python\nclass My_Data:\n    def my_show_data(self,dt):\n        count = 0; x = None\n        for i in dt:\n            if x == None:\n                x = i.strip()\n            elif (count % 2 == 0):\n                str2.append(i.strip())\n            else: str1.append(i.strip())\n            count += 1\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "my_dollar_convert",
+        "description": "my_dollar_convert",
+        "peekOfCode": "def main():\n    myObj = My_Data()\n    try:\n        infile_data = open('my_data_dollar.txt',\"r\")\n        myObj.my_show_data(infile_data)\n    except:\n        print(\"can't find any file.txt\")\n        input(\"?\")\n    # --------------------------------------------------------\n    while True:",
+        "detail": "my_dollar_convert",
+        "documentation": {
+            "value": "\n```python\nfrom my_dollar_convert import main\n```\n\n```python\n\n\n```\n\n```python\ndef main():\n    myObj = My_Data()\n    try:\n        infile_data = open('my_data_dollar.txt',\"r\")\n        myObj.my_show_data(infile_data)\n    except:\n        print(\"can't find any file.txt\")\n        input(\"?\")\n    # --------------------------------------------------------\n    while True:\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "#ctx",
+        "kind": 5,
+        "importPath": "my_dollar_convert",
+        "description": "my_dollar_convert",
+        "peekOfCode": "#ctx = ssl.create_default_context()\n#ctx.check_hostname = False\n#ctx.verify_mode = ssl.CERT_NONE\nmy_list=list(); dollar_list=list(); euro_list=list(); str1=list(); str2=list()\nclass My_Data:\n    def my_show_data(self,dt):\n        count = 0; x = None\n        for i in dt:\n            if x == None:\n                x = i.strip()",
+        "detail": "my_dollar_convert",
+        "documentation": {
+            "value": "\n```python\nfrom my_dollar_convert import #ctx\n```\n\n```python\n\n\n```\n\n```python\n#ctx = ssl.create_default_context()\n#ctx.check_hostname = False\n#ctx.verify_mode = ssl.CERT_NONE\nmy_list=list(); dollar_list=list(); euro_list=list(); str1=list(); str2=list()\nclass My_Data:\n    def my_show_data(self,dt):\n        count = 0; x = None\n        for i in dt:\n            if x == None:\n                x = i.strip()\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "#ctx.check_hostname",
+        "kind": 5,
+        "importPath": "my_dollar_convert",
+        "description": "my_dollar_convert",
+        "peekOfCode": "#ctx.check_hostname = False\n#ctx.verify_mode = ssl.CERT_NONE\nmy_list=list(); dollar_list=list(); euro_list=list(); str1=list(); str2=list()\nclass My_Data:\n    def my_show_data(self,dt):\n        count = 0; x = None\n        for i in dt:\n            if x == None:\n                x = i.strip()\n            elif (count % 2 == 0):",
+        "detail": "my_dollar_convert",
+        "documentation": {
+            "value": "\n```python\nfrom my_dollar_convert import #ctx.check_hostname\n```\n\n```python\n\n\n```\n\n```python\n#ctx.check_hostname = False\n#ctx.verify_mode = ssl.CERT_NONE\nmy_list=list(); dollar_list=list(); euro_list=list(); str1=list(); str2=list()\nclass My_Data:\n    def my_show_data(self,dt):\n        count = 0; x = None\n        for i in dt:\n            if x == None:\n                x = i.strip()\n            elif (count % 2 == 0):\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "#ctx.verify_mode",
+        "kind": 5,
+        "importPath": "my_dollar_convert",
+        "description": "my_dollar_convert",
+        "peekOfCode": "#ctx.verify_mode = ssl.CERT_NONE\nmy_list=list(); dollar_list=list(); euro_list=list(); str1=list(); str2=list()\nclass My_Data:\n    def my_show_data(self,dt):\n        count = 0; x = None\n        for i in dt:\n            if x == None:\n                x = i.strip()\n            elif (count % 2 == 0):\n                str2.append(i.strip())",
+        "detail": "my_dollar_convert",
+        "documentation": {
+            "value": "\n```python\nfrom my_dollar_convert import #ctx.verify_mode\n```\n\n```python\n\n\n```\n\n```python\n#ctx.verify_mode = ssl.CERT_NONE\nmy_list=list(); dollar_list=list(); euro_list=list(); str1=list(); str2=list()\nclass My_Data:\n    def my_show_data(self,dt):\n        count = 0; x = None\n        for i in dt:\n            if x == None:\n                x = i.strip()\n            elif (count % 2 == 0):\n                str2.append(i.strip())\n```\n",
+            "supportThemeIcons": false
+        }
+    }
+]
